@@ -3,6 +3,7 @@ from enum import Enum
 class AccessPackageRequestType(str, Enum):
     NotSpecified = "notSpecified",
     UserAdd = "userAdd",
+    UserExtend = "UserExtend",
     UserUpdate = "userUpdate",
     UserRemove = "userRemove",
     AdminAdd = "adminAdd",
